@@ -9,7 +9,7 @@ const puppeteer = require('puppeteer');
     await page.type('input[name=password]', '')
     await page.$eval('#clogs', form => form.submit());
 
-    await page.screenshot({ path: 'example.png' });
+    await page.screenshot({ path: 'screenshots/example.png' });
 
     await browser.close();
 })();
