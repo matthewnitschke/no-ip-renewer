@@ -1,4 +1,4 @@
-# No-Ip dyn dns renewer
+# No-IP dyn dns renewer
 A docker container to renew no-ip dyn dns records automatically
 
 
