@@ -6,3 +6,4 @@ A docker container to renew no-ip dyn dns records automatically
 ```
 docker build -t no-ip-renewer:latest . && docker run no-ip-renewer:latest
 ```
+This is a test
